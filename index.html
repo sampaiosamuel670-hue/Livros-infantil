@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<title>Atividades Bíblicas Infantis | Material Digital</title>
+<meta name="description" content="Material digital de atividades bíblicas para ensinar valores cristãos às crianças de forma divertida.">
+<style>
+:root{--bg:#ffffff;--card:#ffffff;--ink:#1f3a52;--muted:#5b7790;--gold:#6bb5e6;--gold-d:#2a7ab5;--brown:#1f4e79;--line:#d6e8f5;--soft:#ffffff;--shadow:0 8px 28px rgba(31,78,121,.12);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+
+
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bg);color:var(--ink);font:17px/1.65 "Nunito",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Fredoka","Nunito",system-ui,sans-serif;color:var(--brown);line-height:1.2}
+p,li,summary,a,button,.sans{font-family:"Nunito",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+.alt{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+h2{font-size:clamp(26px,4vw,36px);text-align:center;margin-bottom:12px}
+.lead{text-align:center;color:var(--muted);max-width:640px;margin:0 auto 36px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{font-weight:700;color:var(--brown);text-decoration:none;font-family:"Fredoka","Nunito",sans-serif}
+nav{display:flex;gap:18px}nav a{color:var(--muted);text-decoration:none;font-size:15px}nav a:hover{color:var(--gold-d)}
+@media(max-width:720px){nav{display:none}}
+.btn{display:inline-block;background:linear-gradient(180deg,var(--gold),var(--gold-d));color:#fff;border:0;border-radius:999px;padding:15px 30px;font-size:17px;font-weight:700;text-decoration:none;cursor:pointer;box-shadow:0 6px 18px rgba(42,122,181,.35);transition:transform .2s}
+.btn{animation:pulse 1.8s ease-in-out infinite}
+.btn:hover{transform:translateY(-2px);animation-play-state:paused}
+@keyframes pulse{0%,100%{scale:1;box-shadow:0 6px 18px rgba(42,122,181,.35),0 0 0 0 rgba(107,181,230,.55)}50%{scale:1.05;box-shadow:0 8px 22px rgba(42,122,181,.4),0 0 0 14px rgba(107,181,230,0)}}
+@media(prefers-reduced-motion:reduce){.btn{animation:none}}
+.btn:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn.sm{padding:9px 18px;font-size:15px}
+.hero{padding:56px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr;text-align:center}}
+.tag{display:inline-block;background:var(--soft);border:1px solid var(--line);color:var(--gold-d);border-radius:999px;padding:5px 14px;font-size:14px;margin-bottom:16px}
+h1{font-size:clamp(30px,5.2vw,48px);margin-bottom:16px}
+.hero p.sub{color:var(--muted);font-size:18px;margin-bottom:26px}
+.mock{position:relative;height:340px;max-width:380px;margin:0 auto;width:100%}
+.book{position:absolute;width:56%;aspect-ratio:3/4;border-radius:8px 14px 14px 8px;box-shadow:var(--shadow);padding:14px 12px;display:flex;flex-direction:column;justify-content:space-between;border-left:8px solid rgba(0,0,0,.18);color:#fff;font-family:"Fredoka","Nunito",sans-serif;animation:fl 6s ease-in-out infinite}
+.book b{font-size:15px;line-height:1.2}.book small{font-size:11px;opacity:.9;font-family:system-ui,sans-serif}
+.b1{left:0;top:30px;background:linear-gradient(145deg,#6bb5e6,#2a7ab5);transform:rotate(-7deg)}
+.b2{right:0;top:0;background:linear-gradient(145deg,#4a9ad6,#1f4e79);transform:rotate(6deg);animation-delay:1.5s}
+.ico{font-size:44px;text-align:center}
+@keyframes fl{50%{translate:0 -8px}}
+@media(prefers-reduced-motion:reduce){.book{animation:none}html{scroll-behavior:auto}}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:var(--shadow)}
+.card h3{font-size:20px;margin:8px 0}.card p{color:var(--muted);font-size:16px}
+.card .e{font-size:32px}
+.inc{list-style:none;padding:0;max-width:640px;margin:0 auto}
+.inc li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px 14px 50px;margin-bottom:10px;position:relative}
+.inc li::before{content:"✓";position:absolute;left:16px;top:13px;color:#fff;background:var(--gold);width:24px;height:24px;border-radius:50%;text-align:center;line-height:24px;font-size:14px}
+.pages{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.page{background:#fff;color:#1f3a52;border-radius:12px;padding:18px;border:1px solid var(--line);box-shadow:var(--shadow);aspect-ratio:3/4;display:flex;flex-direction:column;gap:10px;font-family:system-ui,sans-serif;font-size:14px}
+.page h4{font-family:"Fredoka","Nunito",sans-serif;text-align:center;font-size:16px;color:#1f4e79}
+.dots{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.dots i{aspect-ratio:1;border:2px dashed #6bb5e6;border-radius:50%}
+.line{border-bottom:2px solid #d6e8f5;height:20px}
+.maze{flex:1;border:3px solid #6bb5e6;border-radius:8px;background:repeating-linear-gradient(90deg,transparent 0 18px,#d6e8f5 18px 20px),repeating-linear-gradient(0deg,transparent 0 18px,#d6e8f5 18px 20px)}
+.draw{flex:1;border:2px dashed #6bb5e6;border-radius:10px;display:grid;place-items:center;font-size:40px}
+.note{text-align:center;color:var(--muted);font-size:14px;margin-top:18px}
+.steps{counter-reset:s}
+.steps .card{position:relative;padding-top:44px}
+.steps .card::before{counter-increment:s;content:counter(s);position:absolute;top:-16px;left:24px;background:var(--gold);color:#fff;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-family:system-ui}
+.offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:800px;margin:0 auto}.offer{text-align:center;border:2px solid var(--line);display:flex;flex-direction:column;align-items:center}.offer.best{border-color:var(--gold)}.offer .btn{margin-top:auto}.bonus{list-style:none;padding:0;width:100%;margin:0 0 20px;display:grid;gap:10px;text-align:left}.bonus li{display:flex;gap:12px;align-items:center;background:#f3faff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}.bonus .gift{font-size:24px}.bonus b{display:block;font-size:15px;color:var(--ink)}.bonus s{color:#d33;font-size:14px;font-weight:600}
+.feat{list-style:none;padding:0;width:100%;text-align:left;margin:12px 0 20px}.feat li{padding:5px 0 5px 28px;position:relative;font-size:15px}.feat li::before{content:"✓";position:absolute;left:0;color:var(--gold-d);font-weight:800}
+.old{color:#d33;text-decoration:line-through;font-weight:600}.off{display:inline-block;background:var(--gold-d);color:#fff;border-radius:8px;padding:2px 12px;font-size:14px;font-weight:700;margin-left:8px;font-family:system-ui,sans-serif}.incbox{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:10px 14px;width:100%;font-weight:700;font-size:14px;color:var(--brown);margin:12px 0 20px}
+.price{font-size:46px;font-weight:700;color:var(--brown);margin:10px 0;font-family:"Fredoka","Nunito",sans-serif}
+.cfg{background:#fff3cd;color:#664d03;border:1px dashed #b58900;border-radius:10px;padding:10px 14px;font-size:14px;margin-top:14px;display:none}
+.cfg.on{display:block}
+.quote{font-style:italic}.quote cite{display:block;margin-top:10px;font-style:normal;font-weight:700;color:var(--brown);font-size:15px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 auto 12px;max-width:720px}
+summary{cursor:pointer;padding:18px 54px 18px 20px;font-weight:600;list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:20px;top:50%;translate:0 -50%;font-size:24px;color:var(--gold-d);transition:rotate .2s}
+details[open] summary::after{rotate:45deg}
+details p{padding:0 20px 18px;color:var(--muted)}
+.final{text-align:center}
+footer{background:#1f4e79;color:#eaf5fd;padding:40px 0;text-align:center;font-size:15px}
+footer a{color:#bfe1f8}
+.reveal{opacity:0;translate:0 18px;transition:opacity .6s,translate .6s}
+.reveal.in{opacity:1;translate:0 0}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;translate:none;transition:none}}
+.hide{display:none!important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#topo">📖 Atividades Bíblicas</a>
+    <nav aria-label="Principal">
+      <a href="#beneficios">Benefícios</a><a href="#incluso">O que inclui</a><a href="#demo">Demonstração</a><a href="#oferta">Oferta</a><a href="#faq">Dúvidas</a>
+    </nav>
+    <a class="btn sm" data-buy href="#oferta">Quero meu material</a>
+  </div>
+</header>
+
+<main id="topo">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="tag">Material digital para imprimir</span>
+      <h1>Ensine valores bíblicos às crianças de um jeito divertido e inesquecível</h1>
+      <p class="sub">Atividades pensadas para ajudar pais, avós e professores a contar as histórias da Bíblia e transmitir valores cristãos, com leveza, criatividade e carinho.</p>
+      <a class="btn" data-buy href="#oferta">Quero acessar agora</a>
+    </div>
+    <div class="mock" role="img" aria-label="Ilustração de dois livros de atividades bíblicas infantis">
+      <div class="book b1"><small>Atividades</small><div class="ico">🕊️</div><b>Histórias da Bíblia para crianças</b></div>
+      <div class="book b2" style="top:60px"><small>Para colorir e aprender</small><div class="ico">⭐</div><b>Valores cristãos em atividades</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="beneficios" class="alt">
+  <div class="wrap">
+    <h2>Por que usar atividades bíblicas?</h2>
+    <p class="lead">Aprender brincando fixa melhor as histórias e aproxima as crianças da Palavra.</p>
+    <div class="grid">
+      <div class="card reveal"><div class="e">📖</div><h3>Contato com as histórias</h3><p>As crianças conhecem personagens e ensinamentos da Bíblia de forma prática e envolvente.</p></div>
+      <div class="card reveal"><div class="e">🎨</div><h3>Criatividade</h3><p>Colorir, desenhar e completar estimulam a imaginação e a coordenação motora.</p></div>
+      <div class="card reveal"><div class="e">💛</div><h3>Valores cristãos</h3><p>Amor, gratidão, obediência e fé apresentados de maneira simples e acolhedora.</p></div>
+      <div class="card reveal"><div class="e">👨‍👩‍👧</div><h3>Momento em família</h3><p>Um jeito de reunir pais, avós e filhos em volta de algo que edifica.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="incluso">
+  <div class="wrap">
+    <h2>O que está incluído</h2>
+    <p class="lead">Veja o conteúdo que você recebe ao adquirir o material.</p>
+    <ul class="inc" id="includes"></ul>
+    <div class="cfg" data-cfg="includes"></div>
+  </div>
+</section>
+
+<section id="demo" class="alt">
+  <div class="wrap">
+    <h2>Exemplos de atividades</h2>
+    <p class="lead">Ilustrações representativas dos tipos de página que você pode encontrar.</p>
+    <div class="pages">
+      <div class="page reveal"><h4>Ligue os pontos</h4><div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="page reveal"><h4>Complete a frase</h4><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="draw" style="font-size:30px">✏️</div></div>
+      <div class="page reveal"><h4>Labirinto</h4><div class="maze"></div></div>
+      <div class="page reveal"><h4>Desenhe e colora</h4><div class="draw">🌈</div></div>
+    </div>
+    <p class="note">Imagens ilustrativas. O conteúdo exato está descrito em “O que está incluído”.</p>
+  </div>
+</section>
+
+<section id="publico">
+  <div class="wrap">
+    <h2>Para quem é indicado</h2>
+    <p class="lead">Para quem deseja plantar a semente da fé no coração das crianças.</p>
+    <div class="grid">
+      <div class="card"><div class="e">👩‍👧</div><h3>Pais e mães</h3><p>Momentos de aprendizado e conexão em casa.</p></div>
+      <div class="card"><div class="e">👵</div><h3>Avós</h3><p>Uma forma carinhosa de compartilhar a fé com os netos.</p></div>
+      <div class="card"><div class="e">🧑‍🏫</div><h3>Professores</h3><p>Apoio para aulas de Escola Dominical e ministério infantil.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="como" class="alt">
+  <div class="wrap">
+    <h2>Como funciona</h2>
+    <p class="lead">Simples e rápido, do pagamento à impressão.</p>
+    <div class="grid steps">
+      <div class="card"><h3>1. Faça a compra</h3><p>Clique no botão e finalize o pedido no checkout.</p></div>
+      <div class="card"><h3>2. Receba o acesso</h3><p>O material digital é liberado conforme as condições da oferta.</p></div>
+      <div class="card"><h3>3. Imprima e aproveite</h3><p>Imprima as páginas que quiser e use com as crianças.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="oferta">
+  <div class="wrap">
+    <h2>Sua oferta</h2>
+    <p class="lead">Acesso digital ao material de atividades bíblicas infantis.</p>
+    <div class="offers">
+      <div class="card offer">
+        <span class="tag">Pacote Básico</span>
+        <div><span class="old" id="bOld"></span><span class="off" id="bDisc"></span></div>
+        <div class="price" id="pBasic"></div>
+        <p id="bSave"></p>
+        <ul class="feat"><li>35 Livros de Colorir em PDF</li><li>Temas Bíblicos Variados</li><li>Acesso Vitalício</li><li>Suporte por WhatsApp</li><li>Garantia de 7 dias</li></ul>
+        <a class="btn" data-buy="basic" href="#oferta">Quero o pacote básico</a>
+      </div>
+      <div class="card offer best">
+        <span class="tag">Pacote Premium</span>
+        <div><span class="old" id="pOld"></span><span class="off" id="pDisc"></span></div>
+        <div class="price" id="pFull"></div>
+        <p id="pSave"></p>
+        <p class="incbox" style="margin-bottom:12px">TUDO DO PACOTE BÁSICO +</p>
+        <ul class="bonus">
+          <li><span class="gift">🎁</span><div><b>BÔNUS 1: 2 Novos livros</b><s>R$ 89/ano</s></div></li>
+          <li><span class="gift">🎁</span><div><b>BÔNUS 2: Vídeos de Histórias Bíblicas</b><s>R$ 27,00</s></div></li>
+          <li><span class="gift">🎁</span><div><b>BÔNUS 3: 15 Versículos Ilustrados</b><s>R$ 19,00</s></div></li>
+          <li><span class="gift">🎁</span><div><b>BÔNUS 4: Calendário Bíblico</b><s>R$ 35,00</s></div></li>
+        </ul>
+        <a class="btn" data-buy="full" href="#oferta">Quero o premium</a>
+      </div>
+    </div>
+    <p id="guarantee" class="hide" style="text-align:center;margin-top:20px"></p>
+    <div class="cfg" data-cfg="offer" style="max-width:560px;margin:20px auto 0"></div>
+  </div>
+</section>
+
+<section id="depoimentos" class="alt hide">
+  <div class="wrap">
+    <h2>Depoimentos</h2>
+    <p class="lead">O que dizem as pessoas que já usam o material.</p>
+    <div class="grid" id="testi"></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>Perguntas frequentes</h2>
+    <p class="lead">Tire suas dúvidas antes de comprar.</p>
+    <div id="faqList"></div>
+  </div>
+</section>
+
+<section class="alt final">
+  <div class="wrap">
+    <h2>Comece hoje a semear a fé nas crianças</h2>
+    <p class="lead">Atividades divertidas, histórias bíblicas e valores cristãos em um material digital pronto para imprimir.</p>
+    <a class="btn" data-buy href="#oferta">Quero meu material agora</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Atividades Bíblicas Infantis</strong></p>
+    <p id="support"></p>
+    <p style="margin-top:10px;font-size:13px;opacity:.8">© <span id="yr"></span> Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script>
+/* ============ CONFIGURAÇÃO — preencha com os dados reais da oferta ============ */
+const CONFIG = {
+  checkoutBasic: "https://pay.cakto.com.br/hcurjsz_1242631", checkoutComplete: "https://pay.cakto.com.br/3bji5iv",                 // ← cole aqui o link real de checkout
+  basicOld: "R$ 47,00", basicDiscount: "-79%", basicSave: "R$ 37,00", basicPrice: "R$ 10,00", fullPrice: "R$ 17,00", fullOld: "R$ 256,00", fullDiscount: "-93%", fullSave: "R$ 239,00",                       // ← ex.: "R$ 00,00" (preço original)
+  priceNote: "",                   // ← ex.: "Pagamento único" (condições originais)
+  guarantee: "",                   // ← texto da garantia original (deixe vazio se não houver)
+  support: "",                     // ← ex.: "Suporte: contato@seudominio.com"
+  includes: ["30 livros de colorir bíblicos","Pedro, o Discípulo","Moisés","Livro Yeshua","Livro Virtudes","Livro Versículos e Promessas","Livro Onde o Céu Toca o Papel","Livro Mulheres da Bíblia","Livro Jesus Acalma a Tempestade","Livro Jesus","Livro Heróis da Fé","Livro de Colorir Versículos 3","Livro de Colorir Versículos 2","Livro de Colorir Versículos","Livro de Colorir Páscoa Cristã","Livro de Colorir Maria"],                    // ← lista real de materiais incluídos
+  testimonials: [],                // ← [{texto:"...", autor:"Nome"}] apenas reais
+  faq: [
+    {q:"Como recebo o material?", a:"Após a confirmação do pagamento, você recebe o acesso digital conforme as condições da oferta."},
+    {q:"Preciso imprimir?", a:"O material é digital e pensado para ser impresso, mas você também pode visualizá-lo na tela."},
+    {q:"Para qual idade é indicado?", a:"Confira a faixa etária no detalhamento do conteúdo na seção “O que está incluído”."}
+  ]
+};
+/* ============================================================================ */
+const $=s=>document.querySelector(s);
+const miss=[];
+$("#yr").textContent=new Date().getFullYear();
+
+// Incluso
+const inc=$("#includes");
+if(CONFIG.includes.length){CONFIG.includes.forEach(t=>{const li=document.createElement("li");li.textContent=t;inc.appendChild(li)})}
+else{miss.push("includes");inc.innerHTML="<li>[Configurar] Liste aqui o conteúdo real do material</li>";$('[data-cfg="includes"]').textContent="Configuração pendente: preencha CONFIG.includes com os itens reais do produto."; $('[data-cfg="includes"]').classList.add("on")}
+
+// Oferta
+$("#bOld").textContent=CONFIG.basicOld;$("#bDisc").textContent=CONFIG.basicDiscount;$("#bSave").textContent="Você economiza "+CONFIG.basicSave;$("#pBasic").textContent=CONFIG.basicPrice;$("#pFull").textContent=CONFIG.fullPrice;$("#pOld").textContent=CONFIG.fullOld;$("#pDisc").textContent=CONFIG.fullDiscount;$("#pSave").textContent="Você economiza "+CONFIG.fullSave;
+
+if(CONFIG.guarantee){const g=$("#guarantee");g.textContent=CONFIG.guarantee;g.classList.remove("hide")}
+if(!CONFIG.checkoutBasic||!CONFIG.checkoutComplete){const c=$('[data-cfg="offer"]');c.classList.add("on");c.textContent="Configuração pendente: "+[!CONFIG.checkoutBasic&&"link do pacote básico (CONFIG.checkoutBasic)",!CONFIG.checkoutComplete&&"link do pacote completo (CONFIG.checkoutComplete)"].filter(Boolean).join(" e ")+"."}
+
+// Depoimentos (só se houver reais)
+if(CONFIG.testimonials.length){
+  $("#depoimentos").classList.remove("hide");
+  CONFIG.testimonials.forEach(t=>{const d=document.createElement("div");d.className="card quote";const p=document.createElement("p");p.textContent="“"+t.texto+"”";const c=document.createElement("cite");c.textContent=t.autor;d.append(p,c);$("#testi").appendChild(d)});
+}
+
+// FAQ
+CONFIG.faq.forEach(f=>{const d=document.createElement("details");const s=document.createElement("summary");s.textContent=f.q;const p=document.createElement("p");p.textContent=f.a;d.append(s,p);$("#faqList").appendChild(d)});
+// um aberto por vez
+document.querySelectorAll("#faqList details").forEach(d=>d.addEventListener("toggle",()=>{if(d.open)document.querySelectorAll("#faqList details").forEach(o=>{if(o!==d)o.open=false})}));
+
+// Rodapé
+$("#support").textContent=CONFIG.support||"";
+if(!CONFIG.support)$("#support").classList.add("hide");
+
+// Botões de compra
+document.querySelectorAll("[data-buy]").forEach(b=>{
+  const u=b.dataset.buy==="basic"?CONFIG.checkoutBasic:b.dataset.buy==="full"?CONFIG.checkoutComplete:"";if(u){b.href=u;b.target="_blank";b.rel="noopener"}
+});
+
+// Animação de entrada
+const io="IntersectionObserver" in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.15}):null;
+document.querySelectorAll(".reveal").forEach(el=>io?io.observe(el):el.classList.add("in"));
+</script>
+</body>
+</html>
